@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enter Your Phone Number to View Reports</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <div class="nav-top-main">
+        <div class="nav-top">
+            <div class="nav-top-left">
+                <ul>
+                    <li><a href="">Our Story</a></li>
+                    <li><a href="">Car accreditation</a></li>
+                    <li><a href="">Locations</a></li>
+                </ul>
+            </div>
+            <div class="nav-top-right">
+                <i class="fa-solid fa-user"></i>
+                <a href="index.html">PATIENT LOGIN</a>
+            </div>
+        </div>
+    </div>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#">
+                <img src="../images/logo.webp" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            ABOUT
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+                            <a class="dropdown-item" href="#">About Us</a>
+                            <a class="dropdown-item" href="../ourstory/index.html">Our Story</a>
+                            <a class="dropdown-item" href="#">Timeline</a>
+                            <a class="dropdown-item" href="#">Department</a>
+                            <a class="dropdown-item" href="#">Car ACCREDIT central Lab</a>
+                            <a class="dropdown-item" href="#">Corporate Sales</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="patientsDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            PATIENTS
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="patientsDropdown">
+                            <a class="dropdown-item" href="index.html">View your reports</a>
+                            <a class="dropdown-item" href="index.html">Book Home Sampling</a>
+                            <a class="dropdown-item" href="#">Support</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="departmentsDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            DEPARTMENTS
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="departmentsDropdown">
+                            <a class="dropdown-item" href="../toxicology/index.html">Toxicology Department</a>
+                            <a class="dropdown-item" href="../histopathology/index.html">Histopathology Department</a>
+                            <a class="dropdown-item" href="#">Department 3</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            SERVICES
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="servicesDropdown">
+                            <a class="dropdown-item" href="../hepatitis/index.html">Pakistani Hepatitis Alliance</a>
+                            <a class="dropdown-item" href="#">Service 2</a>
+                            <a class="dropdown-item" href="#">Service 3</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link contact-us-btn" href="#">CONTACT US</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="left">
+                <h2>Book Home Sampling</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Your Phone No</label>
+                        <input type="tel" class="form-control" id="phone" placeholder="+92" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Address</label>
+                        <textarea class="form-control" id="address" rows="3" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="city">Select City</label>
+                        <select class="form-control" id="city" required>
+                            <option>Select Your City</option>
+                            <!-- Add your cities here -->
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email (Optional)</label>
+                        <input type="email" class="form-control" id="email" placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="test">Test Name (Optional)</label>
+                        <input type="text" class="form-control" id="test" placeholder="Test Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="prescription">Upload Prescription (Optional)</label>
+                        <input type="file" class="form-control-file" id="prescription">
+                    </div>
+                    <div class="form-group">
+                        <label for="date">Date</label>
+                        <input type="date" class="form-control" id="date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="time">Time</label>
+                        <input type="time" class="form-control" id="time" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="payment">Mode of Payment</label>
+                        <select class="form-control" id="payment" required>
+                            <option>Cash</option>
+                            <!-- Add other payment methods if necessary -->
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="note">Additional Note</label>
+                        <textarea class="form-control" id="note" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+            <div class="right">
+                <img src="../images/bike.webp" alt="Home Sampling Image">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-flex">
+            <div class="footer-box">
+                <img src="../images/logo.webp" alt="">
+                <p><strong>Call us:</strong> 03-111456789</p>
+                <p><strong>Lahore:</strong> 7-Jail Road Main Gulberg</p>
+                <p><strong>Karachi:</strong> Plot no. 2, Block 3, P.E.C.H.S, Shaheed-e-Millat Road, Karachi.</p>
+            </div>
+            <div class="footer-box">
+                <h5>About</h5>
+                <p>Our Story</p>
+                <p>Timeline</p>
+                <p>Departments</p>
+                <p>Collection Center Locations</p>
+                <p>Contact Us</p>
+            </div>
+            <div class="footer-box">
+                <h5>Careers & Academics</h5>
+                <p>Current Openings | Join Our Team at Chughtai Lab</p>
+                <p>MPhil Admissions</p>
+                <p>BSc Mlt Admissions</p>
+                <p>FCPS Residency Programs</p>
+                <p>Phlebotomy Course</p>
+            </div>
+            <div class="footer-box">
+                <h5>Blogs & Media</h5>
+                <p>Chughtai Lab Blogs</p>
+                <p>Press Mentions</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

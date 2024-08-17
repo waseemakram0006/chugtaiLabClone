@@ -1,0 +1,492 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-top-main{
+    background-color: #2E3092;
+}
+.nav-top{
+    width: 80%;
+    margin: auto;
+    padding: 1.5% 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-top-left{
+    width: 50%;
+}
+.nav-top-left ul{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 0;
+    list-style-type: none;
+}
+.nav-top-left li{
+    border-right: 1px solid #fff;
+    padding-right: 15px;
+}
+.nav-top-left a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav-top-right{
+    width: 50%;
+    color: #fff;
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+.nav-top-right a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header {
+    background-color: #343a40;
+    z-index: 9;
+}
+
+.navbar-brand img {
+    height: 75px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item .dropdown-menu {
+    background-color: #343a40;
+}
+
+.navbar-nav .nav-item .dropdown-menu .dropdown-item {
+    color: #ffffff;
+}
+
+.navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
+    background-color: #495057;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #adb5bd;
+}
+
+.contact-us-btn {
+    color: #343a40;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.contact-us-btn:hover {
+    background-color: #000;
+    color: #ffffff;
+}
+
+.fa-bars:before {
+    content: "";
+}
+
+.carousel-item {
+    position: relative;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 100px;
+    background-position-x: center;
+}
+
+.carousel-indicators li{
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+}
+
+.card-section-1{
+    width: 80%;
+    margin: -40px auto 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2E3092;
+    padding: 14px;
+    border-radius: 20px;
+}
+.card-sec-1{
+    width: 24%;
+    text-align: center;
+    border-right: 1px solid #fff;
+}
+.card-sec-1:last-child{
+    border-right: none;
+}
+.card-sec-1 h5{
+    color: #fff;
+    padding-top: 10px;
+}
+.card-1-img img{
+    height: 80px
+}
+#sec-1{
+    position: relative;
+}
+
+.carousel-indicators{
+    bottom: 30px;
+}
+
+.sec-2-cards{
+    display: flex;
+    width: 80%;
+    margin: 10% auto;
+}
+.sec-2-card{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sec-2-card:first-child{
+    border-right: 1px solid #000;
+}
+.sec-2-inner-cards{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.sec-2-inner-card{
+    width: 24%;
+}
+.sec-2-inner-img{
+    height: auto;
+}
+.sec-2-inner-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.sec-2-inner-2{
+    width: 31%;
+}
+.sec-2-inner-card button{
+    width: 100%;
+    border: none;
+    margin-top: 3%;
+    padding: 10px;
+    background-color: #2E3092;
+    color: #fff;
+    font-weight: bold;
+}
+.sec-2-card h3{
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-title{
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+}
+.sec-3-card-body{
+    background-color: #2E3092;
+    margin-top: 5px;
+}
+
+.img-fluid{
+    height: 250px;
+    object-fit: cover;
+}
+.card-3{
+    justify-content: space-between;
+}
+.heading{
+    font-weight: bold;
+    font-size: 2rem;
+}
+#sec-4{
+    background-color: #2E3092;
+}
+.sec-4-cards{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    padding: 10px;
+}
+.sec-4-card{
+    width: 50%;
+}
+.sec-4-card img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+} 
+.sec-4-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.sec-4-btn button{
+    background-color: transparent;
+    padding: 15px;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-weight: bold;
+}
+
+#sec-5{
+    background-color: #222222;
+    padding: 2%;
+}
+#sec-5 h2{
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+}
+.sec-5-cards{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 2% auto;
+}
+.sec-5-card{
+    width: 18%;
+    border-right: 1px solid #fff;
+    color: #fff;
+    text-align: center;
+}
+.sec-5-card:last-child{
+    border-right: none;
+}
+
+@media screen and (max-width:992px){
+    .card-section-1{
+        flex-wrap: wrap;
+        
+    }
+    .card-sec-1{
+        width: 48%;
+    }
+    .sec-2-cards{
+        flex-wrap: wrap;
+    }
+    .sec-2-card{
+        width: 100%
+    }
+}
+@media screen and (max-width:787px){
+    .card-sec-1{
+        width: 100%;
+    }
+    .sec-2-card{
+        flex-wrap: wrap;
+    }
+    .sec-2-inner-cards{
+        flex-wrap: wrap;
+    }
+    .sec-2-inner-card{
+        width: 48%;
+    }
+    .sec-5-cards{
+        flex-wrap: wrap;
+    }
+    .sec-5-card{
+        width: 48%;
+    }
+}
+@media screen and (max-width:576px){
+    .sec-2-inner-card{
+        width: 100%;
+    }
+    .sec-5-card{
+        width: 100%;
+        text-align: left;
+    }
+}
+
+#sec-7{
+    padding: 4%;
+    background-color: #f7f7f7;
+}
+#sec-7 h2,#sec-8 h2{
+    font-size: 2.5rem;
+    color: #58585b;
+    text-align: center;
+}
+.sec-7-flex{
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.sec-7-card{
+    width: 19%;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    text-align: center;
+    background-color: white;
+   
+}
+.sec-7-img{
+    width: 80%;
+    margin: auto;
+}
+.sec-7-card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+
+.initiatives {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+
+.initiative {
+    margin: 10px;
+    padding: 20px;
+    width: 150px;
+    text-align: center;
+    border-right: 1px solid  #58585b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.initiative img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+    background-color: #f7f7f7;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.initiative p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+}
+#sec-9{
+    background-color: #2e3092;
+    padding: 4%;
+}
+.sec-9-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+.sec9-left{
+    width: 55%;
+    color: white;
+}
+.sec9-right{
+    width: 40%;
+    
+}
+.sec9-right img{
+    width: 100%;
+    height: 100%;
+
+}
+#sec-10{
+    margin-bottom: 2%;
+}
+.sec-10-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 2%;
+    flex-wrap: wrap;
+}
+.sec-10-card{
+    width: 24%;
+}
+.sec-10-card img{
+    width: 100%;
+}
+.sec-10-card a{
+    color: red;
+}
+footer{
+    background-color: #f7f7f7;
+    padding: 2%;
+}
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.footer-box{
+    width: 17%;
+}
+.footer-flex p{
+    line-height: 1;
+}
+@media screen and (max-width:992px) {
+    
+    .sec-7-flex{
+        justify-content: center;
+        gap: 20px;
+    }
+    .sec-7-card{
+        width: 25%;
+       
+    }
+    .sec-7-img{
+        width: 80%;
+        margin: auto;
+    }
+    .sec-7-card img{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+    
+    .sec-9-flex{
+       flex-direction: column;
+    }
+    .sec9-left{
+        width: 100%;
+        color: white;
+    }
+    .sec9-right{
+        width: 100%;
+        
+    }
+    .sec-10-card{
+        width: 50%;
+    }
+   
+    .footer-box{
+        width: 50%;
+    }
+}
+@media screen and (max-width:576px) {
+    .sec-7-card{
+        width: 100%;
+       
+    }
+    
+}
